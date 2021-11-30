@@ -7,7 +7,7 @@ trigger:
     vmImageName: 'ubuntu-latest'
   
     azureServiceConnection: 'bicep-connection'
-    resourceGroupName: 'exampleRG'
+    resourceGroupName: 'bicep-rg'
     location: 'West Europe'
     templateFile: './main.bicep'
   pool:
